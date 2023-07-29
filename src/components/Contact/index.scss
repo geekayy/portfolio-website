@@ -1,0 +1,19 @@
+a {
+    color: #99ff24; // Normal color
+    text-decoration: none;
+  
+    &:hover {
+      color: #0056b3; // Color on hover
+    }
+  
+    &:visited {
+      color: #8a2be2; // Color for visited links
+    }
+  
+    &:active {
+      color: #ff4500; // Color when the link is clicked/active
+    }
+  }
+  span.highlight-line{
+    color:#99ff24;
+  }
